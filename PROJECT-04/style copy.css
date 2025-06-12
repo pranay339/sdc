@@ -1,0 +1,97 @@
+/* Global Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Added for better layout handling */
+}
+
+/* Background and Layout */
+html, body {
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(135deg, rgb(21, 235, 224) 20%, rgb(239, 253, 45) 80%); /* Updated color gradient */
+}
+
+/* Header Styling */
+header {
+    background: linear-gradient(135deg, rgb(20, 20, 20) 10%, rgb(50, 50, 50) 90%);
+    color: #fff;
+    padding: 8px;
+    text-align: center;
+    font-family: "Alkatra", sans-serif;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.heading {
+    font-size: 32px;
+}
+
+/* Main Container */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(135deg, rgb(45, 45, 45) 20%, rgb(15, 15, 15) 80%);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+    width: 420px;
+    border-radius: 6px;
+    padding: 1.5rem;
+    margin: 5% auto;
+}
+
+/* Input Field Styling */
+input[type="text"] {
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    width: 100%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Button Styling */
+button {
+    padding: 12px 20px;
+    font-size: 16px;
+    background-color: #ff9800; /* Changed from green to orange */
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background-color: #f57c00;
+}
+
+/* Weather Result Section */
+.container #result {
+    margin-top: 2rem;
+    color: #fff;
+    font-family: "Quicksand", sans-serif;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+    font-size: large;
+    line-height: 2rem;
+    padding: 1.5rem;
+}
+
+/* Footer */
+.footer {
+    font-size: large;
+    font-family: "Alkatra", sans-serif;
+    margin-top: 20px;
+    text-align: center;
+}
+
+/* Responsive Design */
+@media only screen and (max-width: 767px) {
+    .container {
+        width: 90%;
+    }
+    input[type="text"], button {
+        width: 100%;
+    }
+}

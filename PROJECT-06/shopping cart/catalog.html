@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="header">
+      <div class="header-left">Welcome Pranavika</div>
+      <div class="header-right">
+        <a href="catalog.html"  class="anchor-header">Catalog</a>
+
+        <a href="cart.html"  class="anchor-header">Cart</a>
+        
+        <a href="login.html" class="anchor-header">Logout</a>
+      </div>
+    </div>
+    <div class="catalog-page" id="catalog">
+        <div class="individual-products">
+            <img src="/images/tab.jpg" alt="" class="prd-img">
+             <div class="product-info">
+             <h3>Tab</h3>
+             <p> ₹ 66970 </p>
+             <p class="description">Electronics</p>
+             <button class="cart-btn" onclick="add_to_cart('1',
+             '/images/tab.jpg',
+             'Tab',
+             '66970 '
+             )">Add to cart</button>
+             </div>
+             
+        </div>
+        <div class="individual-products">
+          <img src="images/tv.jpg" alt=""/ class="prd-img">
+           <div class="product-info">
+           <h3>Tv</h3>
+           <p> ₹ 85000 </p>
+           <p class="description">Electronics</p>
+           <button class="cart-btn" onclick="add_to_cart('6',
+           'images/tv.jpg',
+           'Tv',
+           '85000 '
+           )">Add to cart</button>
+           </div>
+           
+      </div>
+        <div class="individual-products">
+            <img src="/images/iron_box.jpg" alt=""/ class="prd-img">
+             <div class="product-info">
+             <h3>Iron Box</h3>
+             <p> ₹ 1799 </p>
+             <p class="description">Electronics</p>
+             <button class="cart-btn" onclick="add_to_cart('3',
+             '/images/iron_box.jpg',
+             'Iron Box',
+             '1799'
+             )">Add to cart</button>
+             </div>
+             
+        </div>
+        <div class="individual-products">
+          <img src="/images/shirt.jpg" alt=""/ class="prd-img">
+           <div class="product-info">
+           <h3>Shirt</h3>
+           <p> ₹ 1200 </p>
+           <p class="description">Men's clothing</p>
+           <button class="cart-btn" onclick="add_to_cart('2',
+           '/images/shirt.jpg',
+           'shirt',
+           '1200 '
+           )">Add to cart</button>
+           </div>
+           
+      </div>
+        <div class="individual-products">
+            <img src="/images/shoe.jpg" alt=""/ class="prd-img">
+             <div class="product-info">
+             <h3>Men's shoe</h3>
+             <p> ₹ 2499 </p>
+             <p class="description">Men's Clothing</p>
+             <button class="cart-btn" onclick="add_to_cart('4',
+             '/images/shoe.jpg',
+             'Men\'s Shoe',
+             '2499 '
+             )">Add to cart</button>
+             </div>
+             
+        </div>
+        <div class="individual-products">
+            <img src="images/sofa.jpg" alt=""/ class="prd-img">
+             <div class="product-info">
+             <h3>Sofa</h3>
+             <p> ₹24999 </p>
+             <p class="description">Home Appliances</p>
+             <button class="cart-btn" onclick="add_to_cart('5',
+             'images/sofa.jpg',
+             'Sofa',
+             '24999 '
+             )">Add to cart</button>
+             </div>
+             
+        </div>
+        
+        <div class="individual-products">
+            <img src="images/laptop.jpg" alt=""/ class="prd-img">
+             <div class="product-info">
+             <h3>Laptop</h3>
+             <p> ₹ 49999 </p>
+             <p class="description">Electronics</p>
+             <button class="cart-btn" onclick="add_to_cart('7',
+             'images/laptop.jpg',
+             'Laptop',
+             '49999 '
+             )">Add to cart</button>
+             </div>
+             
+        </div>
+        <div class="individual-products">
+            <img src="images/mobile.jpg" alt=""/ class="prd-img">
+             <div class="product-info">
+             <h3>Mobile</h3>
+             <p> ₹ 75000 </p>
+             <p class="description">Electronics</p>
+             <button class="cart-btn" onclick="add_to_cart('8',
+             'images/mobile.jpg',
+             'Mobile',
+             '75000 '
+             )">Add to cart</button>
+             </div>
+             
+        </div>
+        <div class="individual-products">
+            <img src="images/badminton.jpg" alt=""/ class="prd-img">
+             <div class="product-info">
+             <h3>Badminton</h3>
+             <p> ₹ 2999 </p>
+             <p class="description">Sports</p>
+             <button class="cart-btn" onclick="add_to_cart('9',
+             'images/badminton.jpg',
+             'Badminton',
+             '2999 '
+             )">Add to cart</button>
+             </div>
+             
+        </div>
+    </div>
+    <div class="footer">
+      @ 2024 Shopping Cart All rights reserved
+    </div>
+    
+   <script src="catalog.js"></script>
+  </body>
+</html>

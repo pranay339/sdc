@@ -1,0 +1,9 @@
+.uber-btn{
+    background-color:black;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}

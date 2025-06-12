@@ -1,0 +1,101 @@
+{% extends 'base.html' %}
+
+{% block title %}Home - Student Management{% endblock %}
+
+{% block content %}
+<div class="row g-4">
+    <!-- Welcome Section -->
+    <div class="col-12">
+        <div class="card p-4">
+            <div class="row align-items-center">
+                <div class="col-md-8">
+                    <h1 class="display-4 mb-3">Welcome to Student Management</h1>
+                    <p class="lead text-muted">Streamline your educational institution with our comprehensive management solution.</p>
+                    <div class="mt-4">
+                        <a href="{% url 'register' %}" class="btn btn-primary me-2">
+                            <i class="bi bi-person-plus-fill me-2"></i>Get Started
+                        </a>
+                        <a href="{% url 'about' %}" class="btn btn-outline-primary">
+                            <i class="bi bi-info-circle-fill me-2"></i>Learn More
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-4 text-center">
+                    <i class="bi bi-mortarboard-fill display-1 text-primary"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Stats Section -->
+    <div class="col-md-4">
+        <div class="stats-card">
+            <div class="stats-number">1000+</div>
+            <div class="stats-label">Students Enrolled</div>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="stats-card">
+            <div class="stats-number">50+</div>
+            <div class="stats-label">Courses Available</div>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="stats-card">
+            <div class="stats-number">95%</div>
+            <div class="stats-label">Satisfaction Rate</div>
+        </div>
+    </div>
+
+    <!-- Features Section -->
+    <div class="col-12 mt-4">
+        <h2 class="mb-4">Key Features</h2>
+        <div class="row g-4">
+            <div class="col-md-4">
+                <div class="card h-100 p-4">
+                    <div class="feature-icon">
+                        <i class="bi bi-people-fill"></i>
+                    </div>
+                    <h3>Student Management</h3>
+                    <p class="text-muted">Efficiently manage student records, attendance, and academic progress.</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card h-100 p-4">
+                    <div class="feature-icon">
+                        <i class="bi bi-calendar-check-fill"></i>
+                    </div>
+                    <h3>Course Scheduling</h3>
+                    <p class="text-muted">Organize and manage course schedules with an intuitive interface.</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card h-100 p-4">
+                    <div class="feature-icon">
+                        <i class="bi bi-graph-up-fill"></i>
+                    </div>
+                    <h3>Performance Analytics</h3>
+                    <p class="text-muted">Track and analyze student performance with detailed reports.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Call to Action -->
+    <div class="col-12 mt-4">
+        <div class="card bg-primary text-white p-5">
+            <div class="row align-items-center">
+                <div class="col-md-8">
+                    <h2 class="mb-3">Ready to Get Started?</h2>
+                    <p class="mb-0">Join our platform today and experience the future of student management.</p>
+                </div>
+                <div class="col-md-4 text-md-end">
+                    <a href="{% url 'register' %}" class="btn btn-light">
+                        <i class="bi bi-person-plus-fill me-2"></i>Register Now
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    padding: 20px;
+}
+.back-link {
+    color: rgb(0, 113, 133);
+    text-decoration: none;
+    font-size: 16px;
+}
+.product-container {
+    background-color: white;
+    padding: 20px;
+    width: 350px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 10px;
+}
+h1 {
+    font-size: 24px;
+    font-weight: bold;
+}
+.price {
+    font-size: 18px;
+    color: rgb(0, 118, 0);
+    font-weight: bold;
+}
+.in-stock {
+    font-weight: normal;
+}
+.delivery-info {
+    font-size: 14px;
+    color: black;
+}
+.add-to-cart, .buy-now {
+    border: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+.add-to-cart {
+    background-color: rgb(255, 216, 20);
+    color: black;
+}
+.buy-now {
+    background-color: rgb(255, 164, 28);
+    color: black;
+}

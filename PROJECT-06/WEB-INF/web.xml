@@ -1,0 +1,10 @@
+<web-app>
+  <servlet>
+    <servlet-name>AppController</servlet-name>
+    <servlet-class>controller.AppController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AppController</servlet-name>
+    <url-pattern>/AppController</url-pattern>
+  </servlet-mapping>
+</web-app>
