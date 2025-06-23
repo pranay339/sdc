@@ -458,3 +458,7 @@ Edit
 </body>
 </html>
 Connects the logic: Links the JavaScript file that handles registration, login, book actions, and UI updates.
+![Screenshot 2025-06-23 222547](https://github.com/user-attachments/assets/4a460abc-8571-4dcf-8eb0-417e75bed373)
+![Screenshot 2025-06-23 222623](https://github.com/user-attachments/assets/ec369d0c-5c3c-4d4f-b2e4-672870376cf3)
+
+
