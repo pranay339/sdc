@@ -69,3 +69,4 @@ PROJECT-01/
 - Enhance search functionality
 - Add user profiles
 
+![Screenshot 2025-06-23 221335](https://github.com/user-attachments/assets/805c1e1e-a08b-469a-8510-6c12d44166bf)
