@@ -97,3 +97,7 @@ function updateWeatherDisplay(data) {
 - Include weather maps
 - Add user preferences
 - Implement caching
+- ![Screenshot 2025-06-23 222339](https://github.com/user-attachments/assets/5b8e5597-6396-4387-b258-5c05237f42a2)
+- ![Screenshot 2025-06-23 222516](https://github.com/user-attachments/assets/16e19a1c-2dd5-4d4f-8255-71092efc0ad6)
+
+
