@@ -98,3 +98,9 @@ PROJECT-03/
 - Add CSS variables
 - Implement dark mode
 - Add more interactive examples
+- ![Screenshot 2025-06-23 221924](https://github.com/user-attachments/assets/4a5ba5c2-0f76-4edb-b44b-d367f925b71d)
+- ![Screenshot 2025-06-23 221958](https://github.com/user-attachments/assets/5b4852a7-ae2e-41bf-b091-c2711de63d74)
+- ![Screenshot 2025-06-23 222038](https://github.com/user-attachments/assets/71c6d76d-8ead-45e3-b2e5-75456fac125d)
+
+
+
