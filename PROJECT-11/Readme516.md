@@ -39,3 +39,7 @@ All data storage and logic are handled in the browser using JavaScript and local
 ##Reusable + Extendable##
 Easy to add features like edit, search, or sort.
 Works offline and doesn't require server deployment for basic use.
+![Screenshot 2025-06-23 224522](https://github.com/user-attachments/assets/7be27374-5b7c-4605-af68-2d4d0b5ba9a9)
+![Screenshot 2025-06-23 224602](https://github.com/user-attachments/assets/f59106ee-8cd2-43cb-9709-ddc022db1bcd)
+![Screenshot 2025-06-23 224626](https://github.com/user-attachments/assets/7e3a3e0b-d4f4-4288-81fb-38d6aea175df)
+
