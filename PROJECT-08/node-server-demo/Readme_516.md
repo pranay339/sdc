@@ -69,3 +69,4 @@ OUTPUT EXAMPLES
 
 LICENSE  
 This project is licensed under the MIT License.
+![Screenshot 2025-06-23 224116](https://github.com/user-attachments/assets/e7a240d3-9ad4-4495-baf0-a6152d96d935)
