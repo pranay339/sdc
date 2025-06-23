@@ -76,5 +76,7 @@ PROJECT-02/
 - Add accessibility features
 - ![Screenshot 2025-06-23 221637](https://github.com/user-attachments/assets/26cded31-c15d-44e1-afcd-8d3a454aa1e0)
 - ![Screenshot 2025-06-23 221727](https://github.com/user-attachments/assets/00aaaab2-e375-4c6b-8304-5629c52614ab)
+- ![Screenshot 2025-06-23 221843](https://github.com/user-attachments/assets/d7c20ede-c289-4a14-95f2-2eceddeaf290)
+
 
 
